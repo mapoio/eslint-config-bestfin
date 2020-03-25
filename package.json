@@ -1,0 +1,28 @@
+{
+    "name": "eslint-config-bestfin",
+    "version": "1.0.0",
+    "description": "BestFin",
+    "main": "index.js",
+    "scripts": {
+        "start": "npm run dev",
+        "lint": "run-s eslint prettier",
+        "eslint": "eslint --ext .js,.jsx,.ts,.tsx,.vue --ignore-pattern \"bad.*\" .",
+        "prettier": "prettier -l \"./**/*\"",
+        "prettier:fix": "prettier --write -l \"./**/*\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/AlloyTeam/eslint-config-alloy.git"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^2.25.0",
+        "@typescript-eslint/parser": "^2.25.0",
+        "eslint": "^6.8.0",
+        "eslint-config-prettier": "^6.10.1",
+        "eslint-plugin-prettier": "^3.1.2",
+        "eslint-plugin-react": "^7.19.0",
+        "eslint-plugin-react-hooks": "^2.5.1"
+    },
+    "devDependencies": {}
+}

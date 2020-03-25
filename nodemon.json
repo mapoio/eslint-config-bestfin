@@ -1,0 +1,8 @@
+{
+    "watch": [
+        "test",
+        "scripts"
+    ],
+    "ext": "js,jsx,ts,tsx,json",
+    "exec": "ts-node scripts/build.ts"
+}
